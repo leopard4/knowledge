@@ -17,8 +17,10 @@ docs = loader.load()
 # 벡터 DB 생성
 db = Chroma.from_documents(docs, OpenAIEmbeddings(), persist_directory="./chroma_db")
 
+
 # 질문
-query = "LLM에서 Temperature 설정 방법은?"
+# query = "LLM에서 Temperature 설정 방법은?"
+query = input()
 results = db.similarity_search(query)
 print(f"🔍 '{query}' 검색 결과:")
 print(results[0].page_content)  # 관련 지식 출력
