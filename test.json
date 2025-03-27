@@ -1,0 +1,19 @@
+c:/Users/W10/Desktop/MH/project/knowledge/knowledge/Scripts/python.exe c:/Users/W10/Desktop/MH/project/knowledge/save_knowledge.py 
+{'ids': [
+        ['knowledge_001'
+        ]
+    ], 'embeddings': None, 'documents': [
+        ['Temperature 0.7 설정은 창의성 향상에 효과적'
+        ]
+    ], 'uris': None, 'data': None, 'metadatas': [
+        [
+            {'source': 'LLM 최적화.md'
+            }
+        ]
+    ], 'distances': [
+        [
+            1.4904866218566895
+        ]
+    ], 'included': [<IncludeEnum.distances: 'distances'>, <IncludeEnum.documents: 'documents'>, <IncludeEnum.metadatas: 'metadatas'>
+    ]
+}
